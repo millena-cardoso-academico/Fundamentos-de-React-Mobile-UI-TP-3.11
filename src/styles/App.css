@@ -1,0 +1,6 @@
+@media (min-width: 768px) {
+  .product-page {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}

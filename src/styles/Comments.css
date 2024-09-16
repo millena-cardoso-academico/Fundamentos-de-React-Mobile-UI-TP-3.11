@@ -1,0 +1,20 @@
+.comments-section {
+	padding: 20px;
+}
+
+.comments-section ul {
+	list-style: none;
+	padding: 0;
+}
+
+.comments-section ul li {
+	margin-bottom: 20px;
+}
+
+.comments-section ul li p {
+	margin: 5px 0;
+}
+
+.comments-section ul li strong {
+	font-weight: bold;
+}

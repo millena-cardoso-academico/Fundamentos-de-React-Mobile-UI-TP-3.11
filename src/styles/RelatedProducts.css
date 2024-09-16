@@ -1,0 +1,27 @@
+.related-products {
+	padding: 20px;
+}
+
+.related-products-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+	gap: 20px;
+}
+
+.related-product-card {
+	text-align: center;
+}
+
+.related-product-card img {
+	width: 100%;
+	height: auto;
+}
+
+.related-product-card h4 {
+	margin: 10px 0;
+}
+
+.related-product-card p {
+	font-size: 16px;
+	font-weight: bold;
+}

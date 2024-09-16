@@ -1,0 +1,44 @@
+.product-details {
+	display: flex;
+	flex-direction: column;
+	padding: 20px;
+}
+
+.product-images img {
+	width: 100%;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.product-info {
+	padding: 20px;
+}
+
+.product-price {
+	font-size: 24px;
+	color: green;
+	font-weight: bold;
+}
+
+.product-specs {
+	list-style: none;
+	padding: 0;
+}
+
+.product-specs li {
+	margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+	.product-details {
+		flex-direction: row;
+	}
+
+	.product-images {
+		width: 50%;
+	}
+
+	.product-info {
+		width: 50%;
+	}
+}
